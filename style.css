@@ -1,0 +1,22 @@
+.mySkills {
+    display: flex;  
+}
+.flexContainer {
+display: "flex";
+width: 33%;
+margin: 20px;
+padding: 15px;
+
+}
+.myWork {
+    display: grid;
+
+}
+@media only screen and (mad-width: 600){
+    .flexContainer {
+        display: column;
+        width: 100%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px 300px;
+    }
+}
